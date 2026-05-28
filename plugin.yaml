@@ -1,0 +1,8 @@
+name: engram
+version: 1.0.0
+description: "Engram is a fully managed memory service by Weaviate. It lets you add persistent, personalized memory to AI assistants and agents."
+pip_dependencies:
+  - weaviate-engram
+hooks:
+  - sync_turn
+  - on_memory_write
