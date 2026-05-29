@@ -9,10 +9,11 @@ By default, Hermes includes built in memory features. The Engram plugin extends 
 Clone the repository:
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/Studio1HQ/Hermes_Engram_Plugin
+cd Hermes_Engram_Plugin
 ```
 
-Move the plugin into the Hermes plugins directory:
+Move the plugin directory into the Hermes plugins directory:
 
 ```bash
 mv engram ~/.hermes/plugins/
