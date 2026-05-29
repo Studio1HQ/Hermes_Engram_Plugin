@@ -18,8 +18,12 @@ SEARCH_SCHEMA = {
                 "type": "string",
                 "description": "What to search for in engram's memory.",
             },
+            "user_id": {
+                "type": "string",
+                "description": "The user ID to search memories for.",
+            },
         },
-        "required": ["query"],
+        "required": ["query", "user_id"],
     },
 }
 
@@ -76,7 +80,8 @@ class Engram(MemoryProvider):
 
         if tool_name == "engram_search":
             query = args["query"]
-            results = self._client.memories.search(query=query, user_id=self._user_id)
+            user_id = args["user_id"]
+            results = self._client.memories.search(query=query, user_id=user_id)
             text = []
             for result in results:
                 text.append(result.content)

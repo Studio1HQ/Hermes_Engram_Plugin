@@ -4,5 +4,5 @@ description: "Engram is a fully managed memory service by Weaviate. It lets you 
 pip_dependencies:
   - weaviate-engram
 hooks:
-  - sync_turn
+  - on_session_end
   - on_memory_write
