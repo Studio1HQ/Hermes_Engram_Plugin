@@ -6,7 +6,7 @@ By default, Hermes includes built in memory features designed for short, single 
 
 You can learn more about Engram here: [Engram Deep Dive](https://weaviate.io/blog/engram-deep-dive)
 
-[Use Engram](https://weaviate.io/blog/engram-generally-available)
+You can learn more about Hermes Plugins here: [Plugin System](https://hermes-agent.nousresearch.com/docs/user-guide/features/plugins)
 
 
 ## Installation
