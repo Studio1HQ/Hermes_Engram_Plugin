@@ -18,10 +18,10 @@ git clone https://github.com/Studio1HQ/Hermes_Engram_Plugin
 cd Hermes_Engram_Plugin
 ```
 
-You need to install Engram SDK
+You need to install Engram SDK into Hermes' internal Python environment:
 
 ```bash
-pip install weaviate-engram
+/Users/$USER/.hermes/hermes-agent/venv/bin/pip install weaviate-engram
 ```
 
 Move the plugin into Hermes plugins directory:
